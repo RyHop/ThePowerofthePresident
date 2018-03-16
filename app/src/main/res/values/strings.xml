@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">The Power of the President</string>
+    <string name="question1">Can the U.S. President wage war independently?</string>
+    <string name="question2">Can the U.S. President create treaties? </string>
+    <string name="question3">Click all the ages that qualifies to become the U.S. President:</string>
+    <string name="question4">Can the U.S. President annual paycheck vary without the consent of the U.S. Congress?</string>
+    <string name="question5">Can the U.S. President grant Pardons and Reprieves?</string>
+    <string name="question6">Back by the force of Law, what is the term that allows the President of the U.S. to faithfully exercise power without immediately inteference?</string>
+    <string name="button1">Submit</string>
+    <string name="button2">Reset</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>
