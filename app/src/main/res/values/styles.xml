@@ -5,15 +5,8 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#1b5e20</item>
         <item name="colorPrimaryDark">#003300</item>
-        <item name="colorAccent">#ffff</item>
-        <item name="colorPrimarylight">#4c8c4a</item>
+        <item name="colorAccent">#4c8c4a</item>
     </style>
 
-    <style name="questionStyle" parent="TextAppearance.AppCompat">
-        <style name="android:textStyle">bold</style>
-        <style name="android:textSize">18sp</style>
-
-
-    </style>
 
 </resources>

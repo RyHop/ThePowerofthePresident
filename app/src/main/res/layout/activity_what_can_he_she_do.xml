@@ -20,17 +20,21 @@
             android:padding="10dp">
 
             <TextView
-                style="@style/questionStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question1" />
+                android:text="@string/question1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/question1RadioGroup"
+
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/yesQ1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/yes" />
@@ -56,18 +60,21 @@
 
 
             <TextView
-                style="@style/questionStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question2" />
+                android:text="@string/question2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/question2RadioGroup"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
 
                 <RadioButton
+                    android:id="@+id/yesQ2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/yes" />
@@ -95,10 +102,11 @@
 
 
             <TextView
-                style="@style/questionStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question3" />
+                android:text="@string/question3"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <CheckBox
                 android:layout_width="wrap_content"
@@ -106,16 +114,19 @@
                 android:text="25" />
 
             <CheckBox
+                android:id="@+id/thirty_five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="35" />
 
             <CheckBox
+                android:id="@+id/forty_five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="45" />
 
             <CheckBox
+                android:id="@+id/fifty_five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="55" />
@@ -136,18 +147,21 @@
 
 
             <TextView
-                style="@style/questionStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question4" />
+                android:text="@string/question4"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/question4RadioGroup"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/yesQ4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/yes" />
@@ -174,18 +188,21 @@
 
 
             <TextView
-                style="@style/questionStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question5" />
+                android:text="@string/question5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/question5RadioGroup"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/yesQ5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/yes" />
@@ -212,15 +229,18 @@
 
 
             <TextView
-                style="@style/questionStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question6" />
+                android:text="@string/question6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
 
             <EditText
+                android:id="@+id/answerQ6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="Two Words" />
 
 
         </LinearLayout>
@@ -233,21 +253,21 @@
 
 
             <Button
-                android:background="#1b5e20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="40dp"
+                android:background="#1b5e20"
+                android:onClick="submitButton"
                 android:text="@string/button1"
-                android:textColor="#ffffff"
-                />
+                android:textColor="#ffffff" />
 
             <Button
-                android:background="#1b5e20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#1b5e20"
+                android:onClick="resetButton"
                 android:text="@string/button2"
-                android:textColor="#ffffff"
-                />
+                android:textColor="#ffffff" />
 
 
         </LinearLayout>
