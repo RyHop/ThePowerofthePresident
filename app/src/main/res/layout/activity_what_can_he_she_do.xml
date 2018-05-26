@@ -34,12 +34,12 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/yesQ1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/yes" />
 
                 <RadioButton
+                    android:id="@+id/noQ1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/no" />
@@ -161,12 +161,12 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/yesQ4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/yes" />
 
                 <RadioButton
+                    android:id="@+id/noQ4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/no" />
