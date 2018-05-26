@@ -24,8 +24,6 @@ public class WhatCanHeSheDo extends AppCompatActivity {
         //Just in case of resubmitting the quiz answers without resetting, score should reset to zero
         score = 0;
 
-
-
         boolean yesQ1RadioButton = ((RadioButton) findViewById(R.id.noQ1)).isChecked();
         boolean yesQ2RadioButton = ((RadioButton) findViewById(R.id.yesQ2)).isChecked();
         boolean yesQ4RadioButton = ((RadioButton) findViewById(R.id.noQ4)).isChecked();
@@ -75,7 +73,7 @@ public class WhatCanHeSheDo extends AppCompatActivity {
 
         // I hope line 74 is not Plagiarism. The code is not copied, but I learned about the "toUpperCase" long ago on stack Overflow before the class started, and I can not remember the exact source.
 
-        if (userInput.equals("EXECUTIVE ORDER")){
+        if (userInput.equals("EXECUTIVE ORDER")) {
 
             score += 1;
 
